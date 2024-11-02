@@ -60,7 +60,7 @@
 - `python -m dis script.py`: Disassemble Python bytecode into a readable format.
 
 ## 13. Create Virtual Environments
-- `python -m venv nameofvenv`: create virtual environments for Isolation of python application
+- `python3 -m venv nameofvenv`: create virtual environments for Isolation of python application
 - `source venv/bin/activate` : Activate the create virtual environment and then install the library(linux/mac os)
-- `python freeze > requirements.txt`: Store python dependencies in one file.
-- `pip install -m requirements.txt` : Install the file dependencies in some another instances.
+- `pip freeze > requirements.txt`: Store python dependencies in one file.
+- `pip install -r requirements.txt` : Install the file dependencies in some another instances.
